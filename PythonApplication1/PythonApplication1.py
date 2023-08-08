@@ -1,4 +1,4 @@
-
+# program to sort an list using bubble shorting method 
 def bub_short(list):
     print("List Before Sorting : \n")
     print(L1,"\n")
@@ -6,7 +6,7 @@ def bub_short(list):
         print(f"phase :{i+1} ")
         print(L1)
         for j in range(len(L1)-1):
-            if L1[j]>L1[j+1] :             
+            if L1[j]>L1[j+1] :            # swaping method         
                 L1[j]=L1[j]+L1[j+1]         # 74 = 31 + 43
                 L1[j+1]=L1[j]-L1[j+1]       # 31 = 74 - 43
                 L1[j]=L1[j] - L1[j+1]       # 43 = 74 - 31
